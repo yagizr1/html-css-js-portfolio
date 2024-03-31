@@ -1,0 +1,340 @@
+body{
+    background-color: #101415;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: sans-serif;
+    margin-left: 36px;
+    font-size: 30px;
+}
+
+#renk{
+    color: red;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 36%;
+    margin-top: -51px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;   
+}
+
+.navbar ul li {
+    display: inline-block; 
+    margin-right: 90px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;    
+}
+
+#contactme a{
+    background-color: red;
+    border-radius: 18px;
+    padding: 7px 15px;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+#contactme{
+    margin-top: -1000px;
+}
+
+.text{
+    margin-top: 190px;
+}
+
+.text li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.line1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.line3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#free{
+    color: green;
+}
+
+#full{
+    color: yellow;
+}
+
+#deve{
+    color: red;
+}
+
+.github{
+    height: 30px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.instagram{
+    height: 30px;
+    width: 70px;
+    margin-left: -20px;
+    margin-top: 28px;
+}
+
+.linkedin{
+    height: 30px;
+    width: 70px;
+    margin-left: -20px;
+    margin-top: 28px;
+}
+
+@keyframes scaleUp {
+    0% {
+        opacity: 0;
+        transform: scale(0.1); 
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1); 
+    }
+}
+
+.h1,nav,div {
+    opacity: 0; 
+    animation: scaleUp 1s ease forwards; 
+}
+
+.paragraph{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.paragraphs{
+    margin-top: 173px;
+}
+
+#aboutme{
+    font-size: 30px;
+    margin-left: 38px;
+}
+
+#spans{
+    color: orange;
+}
+
+.footer {
+    background-color: #0B1623;
+    color: white;
+    padding: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-menu-item {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-menu-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-menu-item p {
+    margin: 5px 0;
+}
+
+.social-media-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu-item ul{
+    list-style-type: none;
+    margin-left: 150px;
+}
+
+.services-menu ul{
+    list-style-type: none;
+}
+
+.footer-menu ul{
+    list-style-type: none;
+}
+
+.services-menu{
+    margin-left: 100px;
+}
+
+.footer-menu-item{
+    margin-left: -50px;
+}
+
+.aboutme-menu{
+    margin-left: 20px;
+}
+
+#aboutme-button a{
+    background-color: orange;
+    margin-left: 40px;
+    border-radius: 18px;
+    padding: 10px 20px;
+    width: 70px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+#aboutme-button{
+    margin-top: 30px;
+}
+
+
+#socialmedia{
+    margin-left: 150px;
+}
+
+#github{
+    margin-left: -35px;
+}
+
+.social-media-links{
+    margin-top: -15px;
+}
+
+#services{
+    font-size: 30px;
+}
+
+#frontend{
+    font-size: 25px;
+}
+
+#backend{
+    font-size: 25px;
+
+}
+#fullstack{
+    font-size: 25px;
+}
+
+.services-cc{
+    margin-left: 35px;
+    font-size: 19px;
+    margin-top: 150px;
+}
+
+.footer{
+    margin-top: 173px;
+}
+
+#fullstackss{
+    color: green;
+}
+
+#backendss{
+    color: green;
+}
+
+#frontss{
+    color: green;
+}
+
+#servicess{
+    color: orange;
+}
+
+.contactbaby{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#contactbaby{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+#contactss{
+    color: orange;
+}
+
+#services-button a{
+    background-color: orange;
+    margin-left: 40px;
+    border-radius: 18px;
+    padding: 10px 30px;
+    width: 70px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+#services-button{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+#contacting a{
+    background-color: orange;
+    margin-left: 40px;
+    border-radius: 18px;
+    padding: 10px 30px;
+    width: 70px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-left: -5px;
+}
+
+#contacting{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#aboutme-button a,
+#services-button a,
+#contacting a {
+    animation: slideDown 0.5s ease;
+}
